@@ -7,6 +7,9 @@ body {
     padding:50px;
 }
 
+a:hover,a:link,a:active,a:visited {
+    text-decoration: none !important;
+}
 
 .list-i:hover {
     color:#BBBAC6;
@@ -20,6 +23,10 @@ body {
     opacity: 1;
     transform: scale(1);
 
+}
+
+.nounderline{
+    text-decoration: none;
 }
 
 /*navigation */
@@ -38,17 +45,11 @@ body {
 }
 
 
-.content {
-    transition: width 2s;
+.container {
 }
 
-.list-i {
-    list-style-type: none;
-    font-size:200%;
-    background-color:inherit;
-    margin-top:30px;
-    border:none;
-    transition: padding 1s;
+.content {
+    transition: width 2s;
 }
 
 llink:link, a:visited{
@@ -91,7 +92,6 @@ llink:link, a:visited{
      }
  }
 
- .fill {object-fit: fill;}
 
 
  /*gallery*/
